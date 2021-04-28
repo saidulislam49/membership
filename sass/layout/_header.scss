@@ -1,0 +1,54 @@
+
+/**************** navbar *********************/
+.navbar .logo{
+    font-family: 'logofont';
+    color: #fff;
+    font-size: 30px;
+    outline: 0;
+}
+nav.navbar{
+    background-color:#663333;
+    padding: 0;
+
+}
+ 
+.navbar .our_menu li a {
+	color: #fff;
+	font-size: 18px;
+	padding: 17px 19px; 
+	text-transform: capitalize;
+	display: block;
+    transition: all 1s;
+    position: relative;
+}
+.navbar .our_menu li a:hover,
+.navbar .our_menu li a.courrent{
+    background: #fff;
+    color: #663333;
+}
+.navbar .our_menu li a:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 5px;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    transition: all .3s;
+}
+.navbar .our_menu li a:hover:after{
+    width: 100%;
+}
+.navbar .our_menu li a:before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 5px;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    transition: all .3s;
+}
+.navbar .our_menu li a:hover:before{
+    width: 100%;
+}

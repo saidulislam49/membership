@@ -1,0 +1,14 @@
+{
+  "name": "cmh",
+  "version": "1.0.0",
+  "description": "this is a big project for practice it is created by ruhul amin",
+  "main": "index.js",
+  "scripts": {
+    "cmh": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Saidul islam",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

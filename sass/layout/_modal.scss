@@ -1,0 +1,46 @@
+.mydialog .modal-content {
+	background: url(../images/bg.jpg);
+    position: relative;
+    border: 5px solid #fff;
+    border-radius: 5px;
+
+    &::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 78, 9, 0.76);
+        z-index: 1;
+    }
+
+    .m_content_text{
+        position: relative;
+        z-index: 999;
+    }
+}
+.modal-dialog {
+	max-width: 750px;
+    
+}
+.modal-header i{
+    cursor: pointer;
+}
+.modat_table .table{
+    color: #fff;
+    width: 100%;
+}
+.modat_table .table > :not(caption) > * > * {
+	padding: 3px 5px;
+}
+.modat_table .table tr td:nth-child(1){
+    width: 35%;
+}
+.modat_table tbody, td, tfoot, th, thead, tr { 
+	border: 0;
+}
+.modat_table .table-hover > tbody > tr:hover { 
+	color: #fff;
+}
+

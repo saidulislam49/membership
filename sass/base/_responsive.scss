@@ -1,0 +1,38 @@
+
+
+@media all and (max-width: 1200px){
+
+    .navbar .our_menu li a { 
+        font-size: 13px;
+        padding: 17px 12px;
+        
+    }
+}
+@media all and (max-width: 991px){
+    nav.navbar { 
+        padding: 14px;
+    }
+    .navbar .our_menu li a { 
+        font-size: 18px;
+        padding: 17px 12px;
+        
+    }
+}
+@media all and (max-width: 890px){
+    .slider {
+        height: 400px;
+        
+    }
+}
+@media all and (max-width: 700px){
+    .slider {
+        height: 300px;
+        
+    }
+}
+@media all and (max-width: 530px){
+    .slider {
+        height: 200px;
+        
+    }
+}
